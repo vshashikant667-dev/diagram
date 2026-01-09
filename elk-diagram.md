@@ -1,3 +1,4 @@
+```mermaid
 graph TD
          A[send_log_to_elk.py] -- TCP port 5000 --> B(Logstash);
         B -- HTTP port 9200 --> C(Elasticsearch);
